@@ -6,7 +6,7 @@
 }
 
 body{
-  background: url(assets/images/background.jpg);
+  background: url(https://raw.githubusercontent.com/gabrielcaamargo/form-validator/main/assets/images/background.jpg) repeat;
   color: #FCF7F8;
   font-weight: 400;
   font-size: 17px;
