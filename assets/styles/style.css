@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: #071E22;
+  background: url(assets/images/background.jpg);
   color: #FCF7F8;
   font-weight: 400;
   font-size: 17px;
