@@ -3,33 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/52e9166c56.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/styles/style.css">
   <title>Form Validator</title>
 </head>
 <body>
   <div id="container">
-    <div id="imageSide">
-      <img src="#" alt="">
-    </div>
     <div id="form">
-      <form action="">
-        <h2>song<span>Wave</span></h2>
+      
+      <form action="" >
+        <img src="./assets/images/listening-to-music.jpg" alt="" id="enjoyingMusicImage">
+        <h2>song<span>Wave</span>.</h2>
         <label for="userEmail">email</label> 
           <br/>
-        <input type="email" id="userEmail" name="userEmail">
+        <input type="email" id="userEmail" name="userEmail" placeholder="Seu email aqui">
           <br />
 
         <label for="userPassword">password:</label>
           <br />
-        <input type="password" id="userPassword" name="userPassword"> 
+        <input type="password" id="userPassword" name="userPassword" placeholder="Sua senha aqui, mínimo 6 caracteres"> 
           <br />
 
         <input type="submit" value="get in!" id="loginBtn">
       </form>
-    </div>
-  </div>
 
+    </div>
+      
+  </div>
+  <div id="formValidation">
+      
+  </div>
+  
+  <footer>
+    <p>Social Links: 
+      <a href="https://instagram.com/gabcamargo" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://github.com/gabrielcaamargo"><i class="fa-brands fa-github"></i></a></p>
+  </footer>
   <script src="./assets/js/app.js"></script>
 </body>
 </html>
